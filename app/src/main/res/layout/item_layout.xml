@@ -37,6 +37,7 @@
         android:ellipsize="end"
         android:text="2011-11-11"
         android:textStyle="bold"/>
+
     <TextView
         android:id="@+id/tv_short_desc"
         android:layout_width="match_parent"
@@ -47,12 +48,12 @@
         android:maxLines="3"
         android:ellipsize="end"
         android:text="this is dec"
-        android:textStyle="bold"/>
-<View
-    android:layout_width="match_parent"
-    android:layout_height="1dp"
-    android:background="@color/black"/>
+        android:textStyle="bold" />
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black" />
 
 
 </LinearLayout>
