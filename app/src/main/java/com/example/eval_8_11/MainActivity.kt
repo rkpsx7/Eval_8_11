@@ -38,8 +38,6 @@ class MainActivity : AppCompatActivity() {
 
         })
     }
-    //suddenly got disconnected , network issue//old recording converting
-    // you can match the time to verify cheating
 
     private fun setAdapter() {
         recyclerView.adapter = Adapter(dataList)
